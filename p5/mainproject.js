@@ -7,16 +7,16 @@ var r = Math.floor(Math.random() * 30);;
 var g= Math.floor(Math.random() * 30);; 
 var b = Math.floor(Math.random() * 256);;
 var c = Math.floor(Math.random() * 256);;
-//var song; 
+var song; 
 
-/*function preload(){
+function preload(){
   song = loadSound('DRAMATIC.mp3');
-}*/
+}
 
 function setup() {
 
   createCanvas(1200, 1200);
-  //song.play();
+  song.play();
   noStroke();
   
 }
